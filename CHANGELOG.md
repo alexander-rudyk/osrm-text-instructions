@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## master
+
+- Fixed typographical errors in Italian. [#281](https://github.com/Project-OSRM/osrm-text-instructions/pull/281)
+
 ## 0.13.3 2019-03-29
 
 - Added a Hungarian localization and grammar. [#274](https://github.com/Project-OSRM/osrm-text-instructions/pull/274)
