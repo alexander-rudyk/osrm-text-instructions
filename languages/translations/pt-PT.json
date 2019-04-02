@@ -112,7 +112,7 @@
                 "upcoming": "Está a chegar ao seu {nth} destino, em frente",
                 "short": "Chegou",
                 "short-upcoming": "Está a chegar",
-                "named": "Chegou a {waypoint_name}, em frente"
+                "named": "Chegou a {waypoint_name}, mesmo em frente"
             }
         },
         "continue": {

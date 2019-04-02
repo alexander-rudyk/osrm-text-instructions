@@ -112,7 +112,7 @@
                 "upcoming": "Você vai chegar ao seu {nth} destino, em frente",
                 "short": "Você chegou",
                 "short-upcoming": "Você vai chegar",
-                "named": "You have arrived at {waypoint_name}, straight ahead"
+                "named": "Você chegou a (ao) {waypoint_name}, logo em frente"
             }
         },
         "continue": {
@@ -182,18 +182,18 @@
         "fork": {
             "default": {
                 "default": "Mantenha-se {modifier} na bifurcação",
-                "name": "Mantenha-se {modifier} na bifurcação em {way_name}",
-                "destination": "Mantenha-se {modifier} na bifurcação sentido {destination}"
+                "name": "Permaneça {modifier} para {way_name}",
+                "destination": "Permaneça {modifier} em direção à {destination}"
             },
             "slight left": {
                 "default": "Mantenha-se à esquerda na bifurcação",
-                "name": "Mantenha-se à esquerda na bifurcação em {way_name}",
-                "destination": "Mantenha-se à esquerda na bifurcação sentido {destination}"
+                "name": "Permaneça à esquerda para {way_name}",
+                "destination": "Permaneça à esquerda em direção à {destination}"
             },
             "slight right": {
                 "default": "Mantenha-se à direita na bifurcação",
-                "name": "Mantenha-se à direita na bifurcação em {way_name}",
-                "destination": "Mantenha-se à direita na bifurcação sentido {destination}"
+                "name": "Permaneça à direita para {way_name}",
+                "destination": "Permaneça à direita em direção à {destination}"
             },
             "sharp left": {
                 "default": "Faça uma curva fechada à esquerda na bifurcação",
@@ -219,8 +219,8 @@
             },
             "straight": {
                 "default": "Mesclar",
-                "name": "Entre reto na {way_name}",
-                "destination": "Entre reto em direção à {destination}"
+                "name": "Entre na {way_name}",
+                "destination": "Mesclar para {destination}"
             },
             "slight left": {
                 "default": "Entre à esquerda",
@@ -448,15 +448,15 @@
         "exit roundabout": {
             "default": {
                 "default": "Saia da rotatória",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "name": "Saia da rotatória para {way_name}",
+                "destination": "Saia da rotatória em direção à {destination}"
             }
         },
         "exit rotary": {
             "default": {
                 "default": "Saia da rotatória",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "name": "Saia da rotatória para {way_name}",
+                "destination": "Saia da rotatória em direção à {destination}"
             }
         },
         "turn": {
