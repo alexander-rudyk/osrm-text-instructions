@@ -1,4 +1,4 @@
-[<img src="https://travis-ci.org/Project-OSRM/osrm-text-instructions.svg?branch=master" align="right" alt="Build status">](https://travis-ci.org/Project-OSRM/osrm-text-instructions)
+[<img src="https://travis-ci.org/alexander-rudyk/osrm-text-instructions.svg?branch=master" align="right" alt="Build status">](https://travis-ci.org/alexander-rudyk/osrm-text-instructions)
 
 # OSRM Text Instructions
 
