@@ -158,8 +158,8 @@
         "depart": {
             "default": {
                 "default": "Прямуйте на {direction}",
-                "name": "Прямуйте на {direction} по {way_name}",
-                "namedistance": "Прямуйте на {direction} по {way_name} {distance}"
+                "name": "Прямуйте на {direction} по {way_name:dative}",
+                "namedistance": "Прямуйте на {direction} по {way_name:dative} {distance}"
             }
         },
         "end of road": {
