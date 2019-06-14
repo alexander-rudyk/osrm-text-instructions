@@ -118,40 +118,40 @@
         "continue": {
             "default": {
                 "default": "Поверніть {modifier}",
-                "name": "Поверніть{modifier} залишаючись на {way_name}",
+                "name": "Поверніть {modifier} залишаючись на {way_name:locative}",
                 "destination": "Поверніть {modifier} у напрямку {destination}",
-                "exit": "Поверніть {modifier} на {way_name}"
+                "exit": "Поверніть {modifier} на {way_name:accusative}"
             },
             "straight": {
                 "default": "Продовжуйте рух прямо",
-                "name": "Продовжуйте рух прямо залишаючись на {way_name}",
+                "name": "Продовжуйте рух прямо залишаючись на {way_name:locative}",
                 "destination": "Рухайтесь у напрямку {destination}",
                 "distance": "Продовжуйте рух прямо {distance}",
-                "namedistance": "Продовжуйте рух по {way_name} {distance}"
+                "namedistance": "Продовжуйте рух по {way_name:dative} {distance}"
             },
             "sharp left": {
                 "default": "Поверніть різко ліворуч",
-                "name": "Поверніть різко ліворуч щоб залишитись на {way_name}",
+                "name": "Поверніть різко ліворуч щоб залишитись на {way_name:locative}",
                 "destination": "Поверніть різко ліворуч у напрямку {destination}"
             },
             "sharp right": {
                 "default": "Поверніть різко праворуч",
-                "name": "Поверніть різко праворуч щоб залишитись на {way_name}",
+                "name": "Поверніть різко праворуч щоб залишитись на {way_name:locative}",
                 "destination": "Поверніть різко праворуч у напрямку {destination}"
             },
             "slight left": {
                 "default": "Поверніть різко ліворуч",
-                "name": "Поверніть плавно ліворуч щоб залишитись на {way_name}",
+                "name": "Поверніть плавно ліворуч щоб залишитись на {way_name:locative}",
                 "destination": "Поверніть плавно ліворуч у напрямку {destination}"
             },
             "slight right": {
                 "default": "Поверніть плавно праворуч",
-                "name": "Поверніть плавно праворуч щоб залишитись на {way_name}",
+                "name": "Поверніть плавно праворуч щоб залишитись на {way_name:locative}",
                 "destination": "Поверніть плавно праворуч у напрямку {destination}"
             },
             "uturn": {
                 "default": "Здійсніть розворот",
-                "name": "Здійсніть розворот та рухайтесь по {way_name}",
+                "name": "Здійсніть розворот та рухайтесь по {way_name:dative}",
                 "destination": "Здійсніть розворот у напрямку {destination}"
             }
         },
@@ -165,49 +165,49 @@
         "end of road": {
             "default": {
                 "default": "Поверніть {modifier}",
-                "name": "Поверніть {modifier} на {way_name}",
+                "name": "Поверніть {modifier} на {way_name:accusative}",
                 "destination": "Поверніть {modifier} у напрямку {destination}"
             },
             "straight": {
                 "default": "Продовжуйте рух прямо",
-                "name": "Продовжуйте рух прямо до {way_name}",
+                "name": "Продовжуйте рух прямо до {way_name:dative}",
                 "destination": "Продовжуйте рух прямо у напрямку {destination}"
             },
             "uturn": {
                 "default": "Здійсніть розворот в кінці дороги",
-                "name": "Здійсніть розворот на {way_name} в кінці дороги",
+                "name": "Здійсніть розворот на {way_name:dative} в кінці дороги",
                 "destination": "Здійсніть розворот у напрямку {destination} в кінці дороги"
             }
         },
         "fork": {
             "default": {
                 "default": "На роздоріжжі тримайтеся {modifier}",
-                "name": "Тримайтеся {modifier} і рухайтесь на {way_name}",
+                "name": "Тримайтеся {modifier} і рухайтесь на {way_name:accusative}",
                 "destination": "Тримайтеся {modifier} в напрямку {destination}"
             },
             "slight left": {
                 "default": "На роздоріжжі тримайтеся ліворуч",
-                "name": "Тримайтеся ліворуч і рухайтесь на {way_name}",
+                "name": "Тримайтеся ліворуч і рухайтесь на {way_name:accusative}",
                 "destination": "Тримайтеся ліворуч в напрямку {destination}"
             },
             "slight right": {
                 "default": "На роздоріжжі тримайтеся праворуч",
-                "name": "Тримайтеся праворуч і рухайтесь на {way_name}",
+                "name": "Тримайтеся праворуч і рухайтесь на {way_name:accusative}",
                 "destination": "Тримайтеся праворуч в напрямку {destination}"
             },
             "sharp left": {
                 "default": "На роздоріжжі різко поверніть ліворуч",
-                "name": "Прийміть різко ліворуч на {way_name}",
+                "name": "Прийміть різко ліворуч на {way_name:accusative}",
                 "destination": "Прийміть різко ліворуч у напрямку {destination}"
             },
             "sharp right": {
                 "default": "На роздоріжжі різко поверніть праворуч",
-                "name": "Прийміть різко праворуч на {way_name}",
+                "name": "Прийміть різко праворуч на {way_name:accusative}",
                 "destination": "Прийміть різко праворуч у напрямку {destination}"
             },
             "uturn": {
                 "default": "Здійсніть розворот",
-                "name": "Здійсніть розворот на {way_name}",
+                "name": "Здійсніть розворот на {way_name:locative}",
                 "destination": "Здійсніть розворот у напрямку {destination}"
             }
         },
@@ -251,37 +251,37 @@
         "new name": {
             "default": {
                 "default": "Рухайтесь {modifier}",
-                "name": "Рухайтесь {modifier} на {way_name}",
+                "name": "Рухайтесь {modifier} на {way_name:accusative}",
                 "destination": "Рухайтесь {modifier} у напрямку {destination}"
             },
             "straight": {
                 "default": "Рухайтесь прямо",
-                "name": "Рухайтесь по {way_name}",
+                "name": "Рухайтесь по {way_name:dative}",
                 "destination": "Рухайтесь у напрямку {destination}"
             },
             "sharp left": {
                 "default": "Прийміть різко ліворуч",
-                "name": "Прийміть різко ліворуч на {way_name}",
+                "name": "Прийміть різко ліворуч на {way_name:accusative}",
                 "destination": "Прийміть різко ліворуч у напрямку {destination}"
             },
             "sharp right": {
                 "default": "Прийміть різко праворуч",
-                "name": "Прийміть різко праворуч на {way_name}",
+                "name": "Прийміть різко праворуч на {way_name:accusative}",
                 "destination": "Прийміть різко праворуч у напрямку {destination}"
             },
             "slight left": {
-                "default": "Рухайтесь плавно ліворуч",
-                "name": "Рухайтесь плавно ліворуч на {way_name}",
-                "destination": "Рухайтесь плавно ліворуч у напрямку {destination}"
+                "default": "Плавно поверніть ліворуч",
+                "name": "Плавно поверніть ліворуч на {way_name:accusative}",
+                "destination": "Плавно поверніть ліворуч у напрямку {destination}"
             },
             "slight right": {
-                "default": "Рухайтесь плавно праворуч",
-                "name": "Рухайтесь плавно праворуч на {way_name}",
-                "destination": "Рухайтесь плавно праворуч у напрямку {destination}"
+                "default": "Плавно поверніть праворуч",
+                "name": "Плавно поверніть праворуч на {way_name:accusative}",
+                "destination": "Плавно поверніть праворуч у напрямку {destination}"
             },
             "uturn": {
                 "default": "Здійсніть розворот",
-                "name": "Здійсніть розворот на {way_name}",
+                "name": "Здійсніть розворот на {way_name:dative}",
                 "destination": "Здійсніть розворот у напрямку {destination}"
             }
         },
@@ -398,9 +398,9 @@
                     "destination": "Рухайтесь по {rotary_name} та поверніть в напрямку {destination}"
                 },
                 "exit": {
-                    "default": "Рухайтесь по колу та повереніть у {exit_number} з'їзд",
-                    "name": "Рухайтесь по колу та поверніть у {exit_number} з'їзд на {way_name}",
-                    "destination": "Рухайтесь по колу та поверніть у {exit_number} з'їзд у напрямку {destination}"
+                    "default": "На круговій розв'язці поверніть у {exit_number} з'їзд",
+                    "name": "На круговій розв'язці поверніть у {exit_number} з'їзд на {way_name}",
+                    "destination": "На круговій розв'язці поверніть у {exit_number} з'їзд у напрямку {destination}"
                 },
                 "name_exit": {
                     "default": "Рухайтесь по {rotary_name} та поверніть у {exit_number} з'їзд",
@@ -412,13 +412,13 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Рухайтесь по колу та повереніть у {exit_number} з'їзд",
-                    "name": "Рухайтесь по колу та поверніть у {exit_number} з'їзд на {way_name}",
-                    "destination": "Рухайтесь по колу та поверніть у {exit_number} з'їзд у напрямку {destination}"
+                    "default": "На круговій розв'язці поверніть у {exit_number} з'їзд",
+                    "name": "На круговій розв'язці поверніть у {exit_number} з'їзд на {way_name:accusative}",
+                    "destination": "На круговій розв'язці поверніть у {exit_number} з'їзд у напрямку {destination}"
                 },
                 "default": {
                     "default": "Рухайтесь по колу",
-                    "name": "Рухайтесь по колу до {way_name}",
+                    "name": "Рухайтесь по колу до {way_name:dative}",
                     "destination": "Рухайтесь по колу в напрямку {destination}"
                 }
             }
@@ -448,7 +448,7 @@
         "exit roundabout": {
             "default": {
                 "default": "Залишить коло",
-                "name": "Залишить коло на {way_name} зʼїзді",
+                "name": "Залишить коло на зʼїзді {way_name:genitive}",
                 "destination": "Залишить коло в напрямку {destination}"
             }
         },
@@ -462,22 +462,22 @@
         "turn": {
             "default": {
                 "default": "Рухайтесь {modifier}",
-                "name": "Рухайтесь {modifier} на {way_name}",
+                "name": "Рухайтесь {modifier} на {way_name:accusative}",
                 "destination": "Рухайтесь {modifier} в напрямку {destination}"
             },
             "left": {
                 "default": "Поверніть ліворуч",
-                "name": "Поверніть ліворуч на {way_name}",
+                "name": "Поверніть ліворуч на {way_name:accusative}",
                 "destination": "Поверніть ліворуч у напрямку {destination}"
             },
             "right": {
                 "default": "Поверніть праворуч",
-                "name": "Поверніть праворуч на {way_name}",
+                "name": "Поверніть праворуч на {way_name:accusative}",
                 "destination": "Поверніть праворуч у напрямку {destination}"
             },
             "straight": {
                 "default": "Рухайтесь прямо",
-                "name": "Рухайтесь прямо по {way_name}",
+                "name": "Рухайтесь прямо по {way_name:dative}",
                 "destination": "Рухайтесь прямо у напрямку {destination}"
             }
         },
