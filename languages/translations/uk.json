@@ -5,16 +5,16 @@
     "v5": {
         "constants": {
             "ordinalize": {
-                "1": "1й",
-                "2": "2й",
-                "3": "3й",
-                "4": "4й",
-                "5": "5й",
-                "6": "6й",
-                "7": "7й",
-                "8": "8й",
-                "9": "9й",
-                "10": "10й"
+                "1": "перший",
+                "2": "другий",
+                "3": "третій",
+                "4": "четвертий",
+                "5": "п'ятий",
+                "6": "шостий",
+                "7": "сьомий",
+                "8": "восьмий",
+                "9": "девятий",
+                "10": "десятий"
             },
             "direction": {
                 "north": "північ",
@@ -214,37 +214,37 @@
         "merge": {
             "default": {
                 "default": "Приєднайтеся до потоку {modifier}",
-                "name": "Приєднайтеся до потоку {modifier} на {way_name}",
+                "name": "Приєднайтеся до потоку {modifier} на {way_name:locative}",
                 "destination": "Приєднайтеся до потоку {modifier} у напрямку {destination}"
             },
             "straight": {
                 "default": "Приєднайтеся до потоку",
-                "name": "Приєднайтеся до потоку на {way_name}",
+                "name": "Приєднайтеся до потоку на {way_name:locative}",
                 "destination": "Приєднайтеся до потоку у напрямку {destination}"
             },
             "slight left": {
                 "default": "Приєднайтеся до потоку ліворуч",
-                "name": "Приєднайтеся до потоку ліворуч на {way_name}",
+                "name": "Приєднайтеся до потоку ліворуч на {way_name:locative}",
                 "destination": "Приєднайтеся до потоку ліворуч у напрямку {destination}"
             },
             "slight right": {
                 "default": "Приєднайтеся до потоку праворуч",
-                "name": "Приєднайтеся до потоку праворуч на {way_name}",
+                "name": "Приєднайтеся до потоку праворуч на {way_name:locative}",
                 "destination": "Приєднайтеся до потоку праворуч у напрямку {destination}"
             },
             "sharp left": {
                 "default": "Приєднайтеся до потоку ліворуч",
-                "name": "Приєднайтеся до потоку ліворуч на {way_name}",
+                "name": "Приєднайтеся до потоку ліворуч на {way_name:locative}",
                 "destination": "Приєднайтеся до потоку ліворуч у напрямку {destination}"
             },
             "sharp right": {
                 "default": "Приєднайтеся до потоку праворуч",
-                "name": "Приєднайтеся до потоку праворуч на {way_name}",
+                "name": "Приєднайтеся до потоку праворуч на {way_name:locative}",
                 "destination": "Приєднайтеся до потоку праворуч у напрямку {destination}"
             },
             "uturn": {
                 "default": "Здійсніть розворот",
-                "name": "Здійсніть розворот на {way_name}",
+                "name": "Здійсніть розворот на {way_name:locative}",
                 "destination": "Здійсніть розворот у напрямку {destination}"
             }
         },
@@ -256,7 +256,7 @@
             },
             "straight": {
                 "default": "Рухайтесь прямо",
-                "name": "Рухайтесь по {way_name:dative}",
+                "name": "Продовжуйте рух по {way_name:dative}",
                 "destination": "Рухайтесь у напрямку {destination}"
             },
             "sharp left": {
@@ -301,7 +301,7 @@
             "default": {
                 "default": "Рухайтесь на зʼїзд",
                 "name": "Рухайтесь на зʼїзд на {way_name}",
-                "destination": "Рухайтесь на зʼїзд у напрямку {destination}",
+                "destination": "Рухайтесь на зʼїзд у напрямку {destination:genitive}",
                 "exit": "Оберіть з'їзд {exit}",
                 "exit_destination": "Оберіть з'їзд {exit} у напрямку {destination}"
             },
@@ -329,21 +329,21 @@
             "sharp right": {
                 "default": "Рухайтесь на зʼїзд праворуч",
                 "name": "Рухайтесь на зʼїзд праворуч на {way_name}",
-                "destination": "Рухайтесь на зʼїзд праворуч у напрямку {destination}",
+                "destination": "Рухайтесь на зʼїзд праворуч у напрямку {destination:genitive}",
                 "exit": "Оберіть з'їзд {exit} праворуч",
                 "exit_destination": "Оберіть з'їзд {exit} праворуч у напрямку {destination}"
             },
             "slight left": {
                 "default": "Рухайтесь на зʼїзд ліворуч",
                 "name": "Рухайтесь на зʼїзд ліворуч на {way_name}",
-                "destination": "Рухайтесь на зʼїзд ліворуч у напрямку {destination}",
+                "destination": "Рухайтесь на зʼїзд ліворуч у напрямку {destination:genitive}",
                 "exit": "Оберіть з'їзд {exit} ліворуч",
                 "exit_destination": "Оберіть з'їзд {exit} ліворуч у напрямку {destination}"
             },
             "slight right": {
                 "default": "Рухайтесь на зʼїзд праворуч",
                 "name": "Рухайтесь на зʼїзд праворуч на {way_name}",
-                "destination": "Рухайтесь на зʼїзд праворуч у напрямку {destination}",
+                "destination": "Рухайтесь на зʼїзд праворуч у напрямку {destination:genitive}",
                 "exit": "Оберіть з'їзд {exit} праворуч",
                 "exit_destination": "Оберіть з'їзд {exit} праворуч у напрямку {destination}"
             }
@@ -398,9 +398,9 @@
                     "destination": "Рухайтесь по {rotary_name} та поверніть в напрямку {destination}"
                 },
                 "exit": {
-                    "default": "На круговій розв'язці поверніть у {exit_number} з'їзд",
-                    "name": "На круговій розв'язці поверніть у {exit_number} з'їзд на {way_name}",
-                    "destination": "На круговій розв'язці поверніть у {exit_number} з'їзд у напрямку {destination}"
+                    "default": "На кільці скористайтесь {exit_number:ablative} з'їздом",
+                    "name": "На кільці скористайтесь {exit_number:ablative} з'їздом на {way_name}",
+                    "destination": "На кільці скористайтесь {exit_number:ablative} з'їздом у напрямку {destination}"
                 },
                 "name_exit": {
                     "default": "Рухайтесь по {rotary_name} та поверніть у {exit_number} з'їзд",
@@ -412,9 +412,9 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "На круговій розв'язці поверніть у {exit_number} з'їзд",
-                    "name": "На круговій розв'язці поверніть у {exit_number} з'їзд на {way_name:accusative}",
-                    "destination": "На круговій розв'язці поверніть у {exit_number} з'їзд у напрямку {destination}"
+                    "default": "На кільці скористайтесь {exit_number:ablative} з'їздом",
+                    "name": "На кільці скористайтесь {exit_number:ablative} з'їздом на {way_name:accusative}",
+                    "destination": "На кільці скористайтесь {exit_number:ablative} з'їздом у напрямку {destination}"
                 },
                 "default": {
                     "default": "Рухайтесь по колу",
@@ -448,7 +448,7 @@
         "exit roundabout": {
             "default": {
                 "default": "Залишить коло",
-                "name": "Залишить коло на зʼїзді {way_name:genitive}",
+                "name": "Зверніть з кльіця на {way_name:locative}",
                 "destination": "Залишить коло в напрямку {destination}"
             }
         },
@@ -477,7 +477,7 @@
             },
             "straight": {
                 "default": "Рухайтесь прямо",
-                "name": "Рухайтесь прямо по {way_name:dative}",
+                "name": "Рухайтесь по {way_name:dative}",
                 "destination": "Рухайтесь прямо у напрямку {destination}"
             }
         },
